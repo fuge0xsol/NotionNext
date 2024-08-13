@@ -25,10 +25,8 @@ export default function Footer (props) {
                     Powered by
                     <a href="https://github.com/tangly1024/NotionNext" className=' hover:underline'> NotionNext {siteConfig('VERSION')}  </a>
                 </span>
-                <script defer src="https://cn.vercount.one/js"></script>
-                <div>Total Page View <span id="busuanzi_value_page_pv">Loading</span></div>
-<div>Total Visits <span id="busuanzi_value_site_pv">Loading</span></div>
-<div>Site Total Visitors <span id="busuanzi_value_site_uv">Loading</span></div>                                                                                                                                                      
+               <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>                                                                                                                                             
             </div>
         </div>
     </footer>
