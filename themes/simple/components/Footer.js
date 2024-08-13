@@ -25,6 +25,10 @@ export default function Footer (props) {
                     Powered by
                     <a href="https://github.com/tangly1024/NotionNext" className=' hover:underline'> NotionNext {siteConfig('VERSION')}  </a>
                 </span>
+                <script defer src="https://cn.vercount.one/js"></script>
+                <div>Total Page View <span id="busuanzi_value_page_pv">Loading</span></div>
+<div>Total Visits <span id="busuanzi_value_site_pv">Loading</span></div>
+<div>Site Total Visitors <span id="busuanzi_value_site_uv">Loading</span></div>                                                                                                                                                      
             </div>
         </div>
     </footer>
