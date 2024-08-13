@@ -25,9 +25,10 @@ export default function Footer (props) {
                     Powered by
                     <a href="https://github.com/tangly1024/NotionNext" className=' hover:underline'> NotionNext {siteConfig('VERSION')}  </a>
                 </span>
-               <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
-            <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>                                                                                                                                             
+                                                                                                                                            
             </div>
+           <script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+            <span id="busuanzi_container_site_pv">本站总访问量<span id="busuanzi_value_site_pv"></span>次</span>                                                                                                                                                              
         </div>
     </footer>
 }
