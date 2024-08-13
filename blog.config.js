@@ -353,6 +353,10 @@ const BLOG = {
   COMMENT_TWIKOO_CDN_URL:
     process.env.NEXT_PUBLIC_COMMENT_TWIKOO_CDN_URL ||
     'https://cdn.staticfile.net/twikoo/1.6.17/twikoo.min.js', // twikoo客户端cdn
+  // 微软 Clarity 站点分析
+  CLARITY_ID:nmls61a4sp process.env.NEXT_PUBLIC_CLARITY_ID || null, // 只需要复制Clarity脚本中的ID部分，ID是一个十位的英文数字组合
+
+  // <---- 站点统计
 
   // utterance
   COMMENT_UTTERRANCES_REPO:
